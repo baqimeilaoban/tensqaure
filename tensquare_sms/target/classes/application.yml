@@ -1,0 +1,13 @@
+server:
+  port: 9009
+spring:
+  application:
+    name: tensquare-sms
+  rabbitmq:
+    host: 192.168.133.130
+aliyun:
+  sms:
+    accessKeyId: LTAI4GCPjzNVSEJ87HMm5pGH
+    accessKeySecret: 5VLmH9lKmKZr0J8oVkvqECLbJpgGsh
+    template_code: SMS_205131799
+    sign_name: ABC商城
