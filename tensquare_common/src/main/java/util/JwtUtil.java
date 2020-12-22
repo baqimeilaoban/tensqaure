@@ -17,7 +17,10 @@ public class JwtUtil {
 
     private String key ;
 
-    private long ttl ;//一个小时
+    /**
+     * 一个小时
+     */
+    private long ttl ;
 
     public String getKey() {
         return key;
